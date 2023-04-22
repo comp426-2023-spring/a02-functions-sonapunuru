@@ -55,15 +55,15 @@ if (args.d == null) {
 //messages for sunny and rainy weather 
 let weather = "";
 if (data.daily.precipitation_hours[days] > 0) {
-	weather += "It looks like there might be rain!";
+	weather += "It looks like there might be rain ";
 } else {
-	weather += "It's going to be bright and sunny!";
+	weather += "It's going to be bright and sunny ";
 }
 
 
 //create correct string depending on day
 if (days == 0) {
-	weather += "today";
+	weather += "today.";
 } else if (days > 1) {
 	weather += "in " + days + " days.";
 } else {
