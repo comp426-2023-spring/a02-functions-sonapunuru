@@ -1,7 +1,7 @@
 {
   "name": "a02-functions-sonapunuru",
   "version": "1.0.0",
-  "description": "Create a command line Node.js package that ingests API data from Open-Meteo",
+  "description": "\"This assignment's purpose is to create a command line Node.js package that ingests API data from Open-Meteo\"",
   "main": "index.js",
   "scripts": {
     "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a02-functions-sonapunuru/issues"
   },
-  "homepage": "https://github.com/comp426-2023-spring/a02-functions-sonapunuru#readme"
+  "homepage": "https://github.com/comp426-2023-spring/a02-functions-sonapunuru#readme",
   "bin": {
     "galosh.js": "./cli.js"
   },
